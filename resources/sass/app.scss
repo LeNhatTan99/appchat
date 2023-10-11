@@ -1,0 +1,29 @@
+// Fonts
+// @import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+html {
+    font-family: "Open Sans", sans-serif;
+}
+li {
+    list-style-type: none;
+}
+a:hover {
+    cursor: pointer;
+}
+.error-message {
+    text-align: left;
+    color: red;
+}
+.toast-success {
+    background-color: #00ff00;
+    color: white;
+}
+.column-text {
+    max-width: 200px;
+    word-wrap: break-word;
+}
